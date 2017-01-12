@@ -2,18 +2,32 @@ import xml.etree.ElementTree as ET
 
 def citation_dfs(root, label_string, write_file):
     for elem in root:
+        # if we're at a token/entity, write it to the file along with its label
         if len(elem) == 0:
             # split text into individual words
             words = elem.text.split(' ')
+            filtered_words = [word for word in words if word.strip() != '']
+
             # assign BILOU tags and write to output file
-            for word in words:
-                if word.strip() != '':
-                    # write in a few dummy values because the preprocessing code expects them
-                    if(label_string != '/' or elem.tag != None):
-                        write_file.write((word + ' d d ' + label_string + '/' + elem.tag + '\n').encode('utf8'))
+            num_tokens = len(filtered_words)
+            for i,word in enumerate(filtered_words):
+                bilou_label = ""
+                if num_tokens < 2:
+                    bilou_label = "U-"
+                else:
+                    if i == 0:
+                        bilou_label = "B-"
+                    elif i == num_tokens-1:
+                        bilou_label = "L-"
                     else:
-                        print "word has no label"
-                        write_file.write((word + ' d d O\n').encode('utf8'))
+                        bilou_label = "I-"
+
+                # write in a few dummy values because the preprocessing code expects them
+                if(label_string != '/' or elem.tag != None):
+                    write_file.write((word + ' d d ' + bilou_label + label_string + '/' + elem.tag + '\n').encode('utf8'))
+                else:
+                    print "word has no label"
+                    write_file.write((word + ' d d O\n').encode('utf8'))
             # print elem.text, label_string + '/' + elem.tag
         else:
             citation_dfs(elem, label_string + '/' + elem.tag, write_file)
