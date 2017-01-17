@@ -1,7 +1,8 @@
 import xml.etree.ElementTree as ET
 
 def citation_dfs(root, label_string, write_file):
-    for elem in root:
+    prev_elem = ""
+    for j,elem in enumerate(root):
         # if we're at a token/entity, write it to the file along with its label
         if len(elem) == 0:
             # split text into individual words
@@ -17,39 +18,52 @@ def citation_dfs(root, label_string, write_file):
                 else:
                     if i == 0:
                         bilou_label = "B-"
-                    elif i == num_tokens-1:
-                        bilou_label = "L-"
+                    # elif i == num_tokens-1:
+                    #     bilou_label = "L-"
                     else:
                         bilou_label = "I-"
 
                 # write in a few dummy values because the preprocessing code expects them
                 if(label_string != '/' or elem.tag != None):
-                    write_file.write((word + ' d d ' + bilou_label + label_string + '/' + elem.tag + '\n').encode('utf8'))
+                    write_file.write((word + ' d d ' + label_string + '/' + bilou_label + elem.tag + '\n').encode('utf8'))
                 else:
                     print "word has no label"
                     write_file.write((word + ' d d O\n').encode('utf8'))
             # print elem.text, label_string + '/' + elem.tag
         else:
-            citation_dfs(elem, label_string + '/' + elem.tag, write_file)
+            bilou_label = ""
+            # TODO: this isn't the correct BIO scheme, write another function to pass over the output and fix it?
+            if len(root) < 2:
+                bilou_label = "U-"
+            else:
+                if elem.tag != prev_elem:
+                    bilou_label = "B-"
+                else:
+                    bilou_label = "I-"
+            citation_dfs(elem, label_string + '/' + bilou_label + elem.tag, write_file)
+        prev_elem = elem.tag
+
+def fix_heirarchical_bio(citation_tokens):
+    pass
 
 def parse_file(filename):
-    with open(filename, 'rb') as dev_file:
+    with open(filename, 'rb') as file:
         num_dev = 0
-        with open(filename + '.parsed', 'wb') as parsed_dev_file:
-            for citation in dev_file:
+        with open(filename + '.parsed', 'wb') as parsed_file:
+            for citation in file:
                 num_dev += 1
                 citation = "<citation> " + citation + " </citation>"
                 citation = citation.replace('&', '&amp;')
                 try:
                     root = ET.fromstring(citation)
-                    citation_dfs(root, '', parsed_dev_file)
-                    parsed_dev_file.write('\n')
+                    citation_dfs(root, '', parsed_file)
+                    parsed_file.write('\n')
                 except ET.ParseError:
                     print citation
-            parsed_dev_file.flush()
-            parsed_dev_file.close()
+            parsed_file.flush()
+            parsed_file.close()
         print num_dev
-        dev_file.close()
+        file.close()
 
 parse_file('dev.docs')
 parse_file('testing.docs')
