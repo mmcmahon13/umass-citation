@@ -14,15 +14,15 @@ def citation_dfs(root, label_string, token_dict):
             num_tokens = len(filtered_words)
             for i,word in enumerate(filtered_words):
                 bilou_label = ""
-                if num_tokens < 2:
-                    bilou_label = "U-"
-                else:
-                    if i == 0:
-                        bilou_label = "B-"
-                    # elif i == num_tokens-1:
-                    #     bilou_label = "L-"
-                    else:
-                        bilou_label = "I-"
+                # if num_tokens < 2:
+                #     bilou_label = "U-"
+                # else:
+                #     if i == 0:
+                #         bilou_label = "B-"
+                #     # elif i == num_tokens-1:
+                #     #     bilou_label = "L-"
+                #     else:
+                #         bilou_label = "I-"
 
                 # write in a few dummy values because the preprocessing code expects them
                 # if(label_string != '/' or elem.tag != None):
@@ -30,7 +30,10 @@ def citation_dfs(root, label_string, token_dict):
                 # else:
                 #     print "word has no label"
                 #     write_file.write((word + ' d d O\n').encode('utf8'))
-                token_dict[word] = label_string.split("/")[1:] + [bilou_label + elem.tag]
+
+                # token_dict is actually a list of tuples, so that the words will be in order
+                # token_dict.append((word, label_string.split("/")[1:] + [bilou_label + elem.tag]))
+                token_dict.append((word, label_string.split("/")[1:] + ["0-" + elem.tag]))
 
             # print elem.text, label_string + '/' + elem.tag
         else:
@@ -52,45 +55,57 @@ def citation_dfs(root, label_string, token_dict):
 def fix_heirarchical_bio(token_labels_dict):
     max_num_labels = 0
     # determine the maximum number of labels any token in the citation has
-    for token, labels in token_labels_dict.iteritems():
+    for (token, labels) in token_labels_dict:
         print token, labels
         if len(labels) > max_num_labels:
             max_num_labels = len(labels)
     print
 
-    prev_label_num = -1
-    prev_label = ""
     # for each label index
     for i in range(max_num_labels):
+        prev_label_num = -1
+        prev_label = ""
+        prev_label_list = []
         print "fixing labels at index ", i
         # go through all the tokens
-        for token, labels in token_labels_dict.iteritems():
+        for j, (token, labels) in enumerate(token_labels_dict):
             # if the current token has a label at index i, compare it to the previous token's labels at index i to see if the token starts a segment
             if i < len(labels):
                 cur_label_num, cur_label = labels[i][0:2], labels[i][2:]
                 print "label for ", token, ": ", cur_label, " with number ", cur_label_num
                 if cur_label_num == prev_label_num and cur_label == prev_label:
-                    "print this is token is continuing the segment for this label"
+                    print "this is token is continuing the segment for this label"
                     labels[i] = "I-" + cur_label
                 elif cur_label_num != prev_label_num and cur_label == prev_label:
                     print "this token is starting a new segment for this label"
-                    labels[i] = "B-" + cur_label
+                    # if this is the last token and it's starting a new segment, must be U
+                    if j == len(token_labels_dict)-1:
+                        labels[i] = "U-" + cur_label
+                    else:
+                        labels[i] = "B-" + cur_label
                     # check if the previous token also started a segment, in which case it should be U and not B
-                    if i > 0 and labels[i-1].startswith("B-"):
-                        labels[i-1] = "U" + labels[i-1][1:]
+                    if j > 0 and prev_label_list[i].startswith("B-"):
+                        print "changing to U"
+                        prev_label_list[i] = "U" + prev_label_list[i][1:]
                 else:
                     print "previous label must not match current label, in which case we're starting a new segment by default"
-                    labels[i] = "B-" + cur_label
+                    # if this is the last token and it's starting a new segment, must be U
+                    if j == len(token_labels_dict) - 1:
+                        labels[i] = "U-" + cur_label
+                    else:
+                        labels[i] = "B-" + cur_label
                     # again, check if previous token started a segment, in which case it should be U and not B
-                    if i > 0 and labels[i-1].startswith("B-"):
-                        labels[i-1] = "U" + labels[i-1][1:]
+                    if j > 0 and prev_label_list[i].startswith("B-"):
+                        print "changing to U"
+                        prev_label_list[i] = "U" + prev_label_list[i][1:]
             prev_label_num = cur_label_num
             prev_label = cur_label
+            prev_label_list = labels
+        print "\n"
     print "\nFIXED: "
-    for token, labels in token_labels_dict.iteritems():
+    for (token, labels) in token_labels_dict:
         print token, labels
-        if len(labels) > max_num_labels:
-            max_num_labels = len(labels)
+
 
     return token_labels_dict
 
@@ -120,7 +135,7 @@ def parse_file(filename):
                 try:
                     root = ET.fromstring(citation)
                     # citation_dfs(root, '', parsed_file)
-                    tokens_dict = {}
+                    tokens_dict = []
                     citation_dfs(root, '', tokens_dict)
                     fix_heirarchical_bio(tokens_dict)
                     parsed_file.write('\n')
@@ -128,6 +143,7 @@ def parse_file(filename):
                     print citation
             parsed_file.flush()
             parsed_file.close()
+        print
         print num_dev
         file.close()
 
