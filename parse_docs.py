@@ -65,7 +65,7 @@ def fix_heirarchical_bio(token_labels_dict):
     for i in range(max_num_labels):
         prev_label_num = -1
         prev_label = ""
-        prev_label_list = []
+        prev_label_list = ["" for m in range(max_num_labels)]
         print "fixing labels at index ", i
         # go through all the tokens
         for j, (token, labels) in enumerate(token_labels_dict):
@@ -98,14 +98,14 @@ def fix_heirarchical_bio(token_labels_dict):
                     if j > 0 and prev_label_list[i].startswith("B-"):
                         print "changing to U"
                         prev_label_list[i] = "U" + prev_label_list[i][1:]
-            prev_label_num = cur_label_num
-            prev_label = cur_label
-            prev_label_list = labels
+                token_labels_dict[j] = (token, labels)
+                prev_label_num = cur_label_num
+                prev_label = cur_label
+                prev_label_list = labels
         print "\n"
     print "\nFIXED: "
     for (token, labels) in token_labels_dict:
         print token, labels
-
 
     return token_labels_dict
 
@@ -129,6 +129,7 @@ def parse_file(filename):
         num_dev = 0
         with open(filename + '.parsed', 'wb') as parsed_file:
             for citation in file:
+                print citation
                 num_dev += 1
                 citation = "<citation> " + citation + " </citation>"
                 citation = citation.replace('&', '&amp;')
@@ -137,7 +138,9 @@ def parse_file(filename):
                     # citation_dfs(root, '', parsed_file)
                     tokens_dict = []
                     citation_dfs(root, '', tokens_dict)
-                    fix_heirarchical_bio(tokens_dict)
+                    tokens_dict = fix_heirarchical_bio(tokens_dict)
+                    for (token, labels) in tokens_dict:
+                        parsed_file.write(token + " d d " + "/".join(labels) + "\n")
                     parsed_file.write('\n')
                 except ET.ParseError:
                     print citation
