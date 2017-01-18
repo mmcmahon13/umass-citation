@@ -102,25 +102,18 @@ def fix_heirarchical_bio(token_labels_dict):
                 prev_label_num = cur_label_num
                 prev_label = cur_label
                 prev_label_list = labels
+        else:
+            # check previous labels to see if they should be changed from B to U
+            for k in range(i, len(prev_label_list)):
+                if prev_label_list[k].startswith('B-'):
+                    prev_label_list[k] = 'U-' + prev_label_list[k][2:]
+
     #     print "\n"
     # print "\nFIXED: "
     # for (token, labels) in token_labels_dict:
     #     print token, labels
 
     return token_labels_dict
-
-
-    # cur_token, _, _, cur_label = citation_string_lines[0].split(" ")
-    # for i in range(2, len(citation_string_lines)):
-    #     next_token, _, _, next_label = citation_string_lines[i]
-    #     cur_labels = cur_label.split("/")
-    #     next_labels = next_label.split("/")
-    #     # go through each label for the current token, and see if the current token starts the segment for that label
-    #     for i in range(len(cur_labels)):
-    #         if i < len(next_labels):
-    #             cur_num, cur_seg = cur_labels[i].split("-")
-    #             next_num, next_seg = next_labels[i].split("-")
-    #             if cur_num == next_num:
 
 
 
@@ -150,10 +143,10 @@ def parse_file(filename):
         file.close()
 
 parse_file('test_parser.docs')
-
-parse_file('dev.docs')
-parse_file('testing.docs')
-parse_file('training.docs')
+#
+# parse_file('dev.docs')
+# parse_file('testing.docs')
+# parse_file('training.docs')
 
 
 

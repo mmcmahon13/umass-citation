@@ -62,7 +62,7 @@ Mesoscopic d d B-venue/B-booktitle
 Quantum d d I-venue/I-booktitle
 Physics d d I-venue/I-booktitle
 E. d d I-venue/B-editor/B-person/U-person-first
-Akkermans d d I-venue/I-editor/I-person/B-person-last
+Akkermans d d I-venue/I-editor/I-person/U-person-last
 Les d d I-venue/B-series
 Houches d d I-venue/I-series
 Summer d d I-venue/I-series
