@@ -1,5 +1,7 @@
 import xml.etree.ElementTree as ET
 
+#TODO: clean this up, it's a mess
+
 # def citation_dfs(root, label_string, write_file):
 def citation_dfs(root, label_string, token_dict):
     prev_elem = ""
