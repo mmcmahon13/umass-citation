@@ -143,10 +143,10 @@ def parse_file(filename):
         file.close()
 
 parse_file('test_parser.docs')
-#
-# parse_file('dev.docs')
-# parse_file('testing.docs')
-# parse_file('training.docs')
+
+parse_file('dev.docs')
+parse_file('testing.docs')
+parse_file('training.docs')
 
 
 

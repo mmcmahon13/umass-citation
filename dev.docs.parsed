@@ -62,7 +62,7 @@ Mesoscopic d d B-venue/B-booktitle
 Quantum d d I-venue/I-booktitle
 Physics d d I-venue/I-booktitle
 E. d d I-venue/B-editor/B-person/U-person-first
-Akkermans d d I-venue/I-editor/I-person/B-person-last
+Akkermans d d I-venue/I-editor/I-person/U-person-last
 Les d d I-venue/B-series
 Houches d d I-venue/I-series
 Summer d d I-venue/I-series
@@ -559,7 +559,7 @@ Liebert d d I-venue/I-editor/I-person/B-person-last
 , d d I-venue/I-editor/I-person/I-person-last
 R. d d I-venue/I-editor/B-person/U-person-first
 A. d d I-venue/I-editor/I-person/U-person-middle
-{Saffer|Safier} d d I-venue/I-editor/I-person/B-person-last
+{Saffer|Safier} d d I-venue/I-editor/I-person/U-person-last
 ( d d I-venue/B-address
 Cambridge d d I-venue/I-address
 : d d I-venue/I-address
@@ -674,7 +674,7 @@ Chur d d B-venue/B-address
 Switzerland d d I-venue/I-address
 : d d I-venue/I-address
 Harwood d d I-venue/U-publisher
-(1990) d d I-venue/U-date/B-year
+(1990) d d I-venue/U-date/U-year
 362 d d I-venue/B-pages
 p. d d I-venue/I-pages
 ( d d I-venue/B-series
@@ -746,7 +746,7 @@ Sci d d I-venue/I-journal
 . d d I-venue/I-journal
 , d d I-venue/I-journal
 190 d d I-venue/U-volume
-(1992) d d I-venue/U-date/B-year
+(1992) d d I-venue/U-date/U-year
 145 d d I-venue/U-pages
 
 [11] d d U-ref-marker
@@ -778,7 +778,7 @@ A. d d I-authors/I-person/U-person-middle
 Rashid d d I-authors/I-person/U-person-last
 M. d d I-authors/B-person/U-person-first
 A. d d I-authors/I-person/U-person-middle
-Cambray-Deakin d d I-authors/I-person/B-person-last
+Cambray-Deakin d d I-authors/I-person/U-person-last
 (1992) d d B-date/B-year
 . d d I-date/I-year
 N-methyl-D-aspartate d d B-title
@@ -953,7 +953,7 @@ K. d d I-venue/I-editor/I-person/U-person-middle
 R d d I-venue/I-editor/I-person/B-person-last
 , d d I-venue/I-editor/I-person/I-person-last
 K. d d I-venue/I-editor/B-person/U-person-first
-Viswanth d d I-venue/I-editor/I-person/B-person-last
+Viswanth d d I-venue/I-editor/I-person/U-person-last
 " d d I-venue/B-booktitle
 Health d d I-venue/I-booktitle
 Behavior d d I-venue/I-booktitle
@@ -972,7 +972,7 @@ Practice d d I-venue/I-booktitle
 edition d d I-venue/I-edition
 , d d I-venue/I-edition
 (11) d d I-venue/U-chapter
-2008 d d I-venue/U-date/B-year
+2008 d d I-venue/U-date/U-year
 p d d I-venue/B-pages
 236-269 d d I-venue/I-pages
 JOSSEY-BASS d d I-venue/U-publisher
@@ -1187,7 +1187,7 @@ v.74 d d I-venue/U-volume
 [4] d d U-ref-marker
 Devroye d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-L. d d I-authors/I-person/B-person-first
+L. d d I-authors/I-person/U-person-first
 (1989) d d B-date/B-year
 . d d I-date/I-year
 Consistent d d B-title
@@ -1629,7 +1629,7 @@ ApJ d d I-venue/B-journal
 
 A. d d B-authors/B-person/U-person-first
 V. d d I-authors/I-person/U-person-middle
-Andreev d d I-authors/I-person/B-person-last
+Andreev d d I-authors/I-person/U-person-last
 cond-mat/9601001 d d U-venue/U-reference_id
 
 [9] d d U-ref-marker
@@ -1870,7 +1870,7 @@ N. d d B-authors/B-person/U-person-first
 L. d d I-authors/I-person/U-person-middle
 Johnson d d I-authors/I-person/U-person-last
 S. d d I-authors/B-person/U-person-first
-Kotz d d I-authors/I-person/B-person-last
+Kotz d d I-authors/I-person/U-person-last
 (1977) d d B-date/B-year
 , d d I-date/I-year
 Urn d d B-title
@@ -2065,7 +2065,7 @@ Marcus d d I-authors/I-person/U-person-last
 Phys.Rev.Lett d d B-venue/B-journal
 . d d I-venue/I-journal
 v.69 d d I-venue/U-volume
-(1992) d d I-venue/U-date/B-year
+(1992) d d I-venue/U-date/U-year
 506 d d I-venue/U-pages
 
 Vega d d B-authors/B-person/B-person-last
@@ -2297,7 +2297,7 @@ York d d I-venue/I-address
 Vapnik d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
 V. d d I-authors/I-person/U-person-first
-N. d d I-authors/I-person/B-person-middle
+N. d d I-authors/I-person/U-person-middle
 (1999) d d B-date/B-year
 . d d I-date/I-year
 The d d B-title
@@ -2331,7 +2331,7 @@ J. d d I-authors/B-person/U-person-first
 Sheu d d I-authors/I-person/U-person-last
 R. d d I-authors/B-person/U-person-first
 L. d d I-authors/I-person/U-person-middle
-Herting d d I-authors/I-person/B-person-last
+Herting d d I-authors/I-person/U-person-last
 (1991) d d B-date/B-year
 . d d I-date/I-year
 Milacemide d d B-title
@@ -2474,7 +2474,7 @@ Pacheco d d I-authors/I-person/I-person-last
 J. d d I-authors/I-person/U-person-first
 A. d d I-authors/I-person/B-person-middle
 , d d I-authors/I-person/I-person-middle
-2004 d d B-venue/U-date/B-year
+2004 d d B-venue/U-date/U-year
 MNRAS d d I-venue/B-journal
 , d d I-venue/I-journal
 348 d d I-venue/B-volume
@@ -2882,7 +2882,7 @@ D. d d I-authors/I-person/B-person-first
 2012 d d B-venue/B-date/B-year
 , d d I-venue/I-date/I-year
 A&A d d I-venue/U-journal
-submitted d d I-venue/B-status
+submitted d d I-venue/U-status
 (arXiv:1202.3107) d d U-reference_id
 
 [14] d d U-ref-marker
@@ -3087,7 +3087,7 @@ M. d d I-venue/I-editor/I-person/B-person-first
 , d d I-venue/I-editor/I-person/I-person-first
 Frommholz d d I-venue/I-editor/B-person/B-person-last
 , d d I-venue/I-editor/I-person/I-person-last
-I. d d I-venue/I-editor/I-person/B-person-first
+I. d d I-venue/I-editor/I-person/U-person-first
 Proceedings d d I-venue/B-booktitle
 of d d I-venue/I-booktitle
 QI d d I-venue/I-booktitle
@@ -3155,7 +3155,7 @@ Rept d d I-venue/I-journal
 314 d d I-venue/B-volume
 , d d I-venue/I-volume
 1 d d I-venue/U-pages
-(1999) d d I-venue/B-date/B-year
+(1999) d d I-venue/U-date/U-year
 [hep-ph/9807278] d d B-reference_id
 . d d I-reference_id
 
@@ -3177,7 +3177,7 @@ infinite d d I-title
 urn d d I-title
 models d d I-title
 , d d I-title
-2006 d d B-venue/U-date/B-year
+2006 d d B-venue/U-date/U-year
 ( d d I-venue/B-tech
 available d d I-venue/I-tech
 at d d I-venue/I-tech
@@ -3191,7 +3191,7 @@ C. d d I-authors/I-person/U-person-first
 P. d d I-authors/I-person/U-person-middle
 Casella d d I-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-G. d d I-authors/I-person/B-person-first
+G. d d I-authors/I-person/U-person-first
 (1999) d d B-date/B-year
 . d d I-date/I-year
 Monte d d B-title
@@ -3344,7 +3344,7 @@ Phys.Rev.Lett d d B-venue/B-journal
 . d d I-venue/I-journal
 v.64 d d I-venue/B-volume
 , d d I-venue/I-volume
-(1990) d d I-venue/U-date/B-year
+(1990) d d I-venue/U-date/U-year
 2215 d d I-venue/B-pages
 ; d d I-venue/I-pages
 
@@ -3519,7 +3519,7 @@ M. d d I-authors/I-person/U-person-middle
 Milliff d d I-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
 R. d d I-authors/I-person/U-person-first
-F. d d I-authors/I-person/B-person-middle
+F. d d I-authors/I-person/U-person-middle
 (2003) d d B-date/B-year
 . d d I-date/I-year
 Hierarchical d d B-title
@@ -3621,7 +3621,7 @@ Logic d d I-venue/I-journal
 . d d I-venue/I-date/I-year
 
 F. d d B-authors/B-person/U-person-first
-Rosenblatt d d I-authors/I-person/B-person-last
+Rosenblatt d d I-authors/I-person/U-person-last
 (1958) d d B-date/B-year
 . d d I-date/I-year
 The d d B-title
@@ -3679,7 +3679,7 @@ Zhao d d B-authors/B-person/B-person-last
 P. d d I-authors/I-person/U-person-first
 Yu d d I-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-B. d d I-authors/I-person/B-person-first
+B. d d I-authors/I-person/U-person-first
 (2007) d d B-date/B-year
 . d d I-date/I-year
 On d d B-title
@@ -3791,7 +3791,7 @@ Fyodorov d d I-authors/I-person/B-person-last
 H. d d I-authors/B-person/U-person-first
 -J d d I-authors/I-person/B-person-middle
 . d d I-authors/I-person/I-person-middle
-Sommers d d I-authors/I-person/B-person-last
+Sommers d d I-authors/I-person/U-person-last
 cond-mat/9507117 d d B-venue/B-reference_id
 . d d I-venue/I-reference_id
 
@@ -4267,7 +4267,7 @@ W. d d I-authors/I-person/U-person-middle
 Brouwer d d I-authors/I-person/U-person-last
 Phys.Rev.B d d B-venue/U-journal
 v.51 d d I-venue/U-volume
-(1995) d d I-venue/U-date/B-year
+(1995) d d I-venue/U-date/U-year
 16875 d d I-venue/U-pages
 
 Terebey d d B-authors/B-person/B-person-last
@@ -4323,7 +4323,7 @@ van d d I-venue/I-editor/B-person/B-person-last
 der d d I-venue/I-editor/I-person/I-person-last
 Merwe d d I-venue/I-editor/I-person/I-person-last
 , d d I-venue/I-editor/I-person/I-person-last
-A. d d I-venue/I-editor/I-person/B-person-first
+A. d d I-venue/I-editor/I-person/U-person-first
 New d d I-venue/B-booktitle
 Developments d d I-venue/I-booktitle
 on d d I-venue/I-booktitle
@@ -4471,7 +4471,7 @@ H d d I-authors/I-person/B-person-middle
 . d d I-authors/I-person/I-person-middle
 Huang d d I-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-J. d d I-authors/I-person/B-person-first
+J. d d I-authors/I-person/U-person-first
 (2008) d d B-date/B-year
 . d d I-date/I-year
 The d d B-title
@@ -4720,7 +4720,7 @@ M. d d I-venue/I-editor/I-person/B-person-first
 , d d I-venue/I-editor/I-person/I-person-first
 Durt d d I-venue/I-editor/B-person/B-person-last
 , d d I-venue/I-editor/I-person/I-person-last
-T. d d I-venue/I-editor/I-person/B-person-first
+T. d d I-venue/I-editor/I-person/U-person-first
 Probing d d I-venue/B-booktitle
 the d d I-venue/I-booktitle
 Structure d d I-venue/I-booktitle
@@ -5074,7 +5074,7 @@ A&A d d I-venue/B-journal
 Wegkamp d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
 M. d d I-authors/I-person/U-person-first
-H. d d I-authors/I-person/B-person-middle
+H. d d I-authors/I-person/U-person-middle
 (2003) d d B-date/B-year
 . d d I-date/I-year
 Model d d B-title
@@ -5341,7 +5341,7 @@ Society d d I-venue/I-organization
 Wegkamp d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
 M. d d I-authors/I-person/U-person-first
-H. d d I-authors/I-person/B-person-middle
+H. d d I-authors/I-person/U-person-middle
 (1999) d d B-date/B-year
 . d d I-date/I-year
 Quasi-universal d d B-title
@@ -5448,7 +5448,7 @@ Phys.Rev d d B-venue/B-journal
 . d d I-venue/I-journal
 E d d I-venue/I-journal
 v.50 d d I-venue/U-volume
-(1994) d d I-venue/U-date/B-year
+(1994) d d I-venue/U-date/U-year
 R659 d d I-venue/B-pages
 ; d d I-venue/I-pages
 
@@ -5622,7 +5622,7 @@ D d d I-venue/I-journal
 Koudou d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
 A. d d I-authors/I-person/U-person-first
-E. d d I-authors/I-person/B-person-middle
+E. d d I-authors/I-person/U-person-middle
 (1996) d d B-date/B-year
 . d d I-date/I-year
 Probabilit´es d d B-title
@@ -5644,7 +5644,7 @@ P. d d I-authors/I-person/U-person-first
 Tsybakov d d I-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
 A. d d I-authors/I-person/U-person-first
-B. d d I-authors/I-person/B-person-middle
+B. d d I-authors/I-person/U-person-middle
 (2007) d d B-date/B-year
 . d d I-date/I-year
 Linear d d B-title
@@ -5849,7 +5849,7 @@ Summer d d I-venue/I-booktitle
 School d d I-venue/I-booktitle
 , d d I-venue/I-booktitle
 G. d d I-venue/B-editor/B-person/U-person-first
-Casati d d I-venue/I-editor/I-person/B-person-last
+Casati d d I-venue/I-editor/I-person/U-person-last
 (1991) d d I-venue/B-date/B-year
 , d d I-venue/I-date/I-year
 p.307 d d I-venue/U-pages
@@ -6109,7 +6109,7 @@ G¨ottingen d d I-venue/B-school
 [39] d d U-ref-marker
 Tibshirani d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-R. d d I-authors/I-person/B-person-first
+R. d d I-authors/I-person/U-person-first
 (1996) d d B-date/B-year
 . d d I-date/I-year
 Regression d d B-title
@@ -6388,7 +6388,7 @@ de d d I-authors/I-person/I-person-last
 Geer d d I-authors/I-person/I-person-last
 , d d I-authors/I-person/I-person-last
 S. d d I-authors/I-person/U-person-first
-A. d d I-authors/I-person/B-person-middle
+A. d d I-authors/I-person/U-person-middle
 (2008) d d B-date/B-year
 . d d I-date/I-year
 High d d B-title
@@ -6421,7 +6421,7 @@ D. d d I-authors/I-person/U-person-middle
 , d d I-venue/I-date/I-year
 ApJ d d I-venue/B-journal
 , d d I-venue/I-journal
-submitted d d I-venue/B-status
+submitted d d I-venue/U-status
 (astro-ph/9803339) d d U-reference_id
 
 Kochanek d d B-authors/B-person/B-person-last
@@ -6587,7 +6587,7 @@ Zhao d d B-authors/B-person/B-person-last
 P. d d I-authors/I-person/U-person-first
 Yu d d I-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-B. d d I-authors/I-person/B-person-first
+B. d d I-authors/I-person/U-person-first
 (2007) d d B-date/B-year
 . d d I-date/I-year
 On d d B-title
@@ -6660,7 +6660,7 @@ LII d d I-venue/I-volume
 , d d I-venue/I-volume
 M. d d I-venue/B-editor/B-person/U-person-first
 J. d d I-venue/I-editor/I-person/U-person-middle
-Giannoni d d I-venue/I-editor/I-person/B-person-last
+Giannoni d d I-venue/I-editor/I-person/U-person-last
 ( d d I-venue/B-publisher
 North d d I-venue/I-publisher
 Holland d d I-venue/I-publisher
@@ -6797,7 +6797,7 @@ math.RT/9808098 d d I-venue/I-reference_id
 Taylor d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
 J. d d I-authors/I-person/U-person-first
-R. d d I-authors/I-person/B-person-middle
+R. d d I-authors/I-person/U-person-middle
 1997 d d B-date/B-year
 , d d I-date/I-year
 An d d B-title
@@ -6860,7 +6860,7 @@ Appl d d I-venue/I-journal
 Math d d I-venue/I-journal
 . d d I-venue/I-journal
 19 d d I-venue/I-journal
-(1990) d d I-venue/U-date/B-year
+(1990) d d I-venue/U-date/U-year
 101--130 d d I-venue/B-pages
 . d d I-venue/I-pages
 
@@ -7390,7 +7390,7 @@ H. d d I-authors/I-person/B-person-first
 , d d I-venue/I-date/I-year
 Glassgold d d I-venue/B-editor/B-person/U-person-last
 A. d d I-venue/I-editor/I-person/U-person-first
-E. d d I-venue/I-editor/I-person/B-person-middle
+E. d d I-venue/I-editor/I-person/U-person-middle
 Symposium d d I-venue/B-booktitle
 on d d I-venue/I-booktitle
 the d d I-venue/I-booktitle
@@ -7719,7 +7719,7 @@ therapy d d I-title
 . d d I-title
 Nature d d B-venue/B-journal
 , d d I-venue/I-journal
-1997 d d I-venue/U-date/B-year
+1997 d d I-venue/U-date/U-year
 387:188- d d I-venue/B-pages
 191 d d I-venue/I-pages
 . d d I-venue/I-pages
@@ -8135,7 +8135,7 @@ Lapok d d I-venue/I-journal
 . d d I-venue/I-date/I-year
 
 F. d d B-authors/B-person/U-person-first
-Rosenblatt d d I-authors/I-person/B-person-last
+Rosenblatt d d I-authors/I-person/U-person-last
 (1962) d d B-date/B-year
 . d d I-date/I-year
 P.rinciples d d B-title
@@ -8231,7 +8231,7 @@ representations d d I-title
 of d d I-title
 groups d d I-title
 . d d I-title
-(1998) d d B-venue/U-date/B-year
+(1998) d d B-venue/U-date/U-year
 #funct-an/9809098 d d I-venue/U-reference_id
 
 W3C08 d d B-ref-marker
@@ -8428,7 +8428,7 @@ ApJS d d I-venue/B-journal
 45 d d I-venue/U-pages
 
 H. d d B-authors/B-person/U-person-first
-Bruus d d I-authors/I-person/B-person-last
+Bruus d d I-authors/I-person/U-person-last
 cond-mat/9510118 d d B-venue/B-reference_id
 . d d I-venue/I-reference_id
 
@@ -8515,7 +8515,7 @@ Soc d d I-venue/I-journal
 Tsybakov d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
 A. d d I-authors/I-person/U-person-first
-B. d d I-authors/I-person/B-person-middle
+B. d d I-authors/I-person/U-person-middle
 (2003) d d B-date/B-year
 . d d I-date/I-year
 Optimal d d B-title
@@ -8588,7 +8588,7 @@ Smilansky d d I-authors/I-person/U-person-last
 Phys.Rev.Lett d d B-venue/B-journal
 . d d I-venue/I-journal
 v.64 d d I-venue/U-volume
-(1989) d d I-venue/U-date/B-year
+(1989) d d I-venue/U-date/U-year
 241 d d I-venue/B-pages
 ; d d I-venue/I-pages
 
@@ -8612,7 +8612,7 @@ R. d d I-authors/I-person/B-person-first
 , d d I-venue/I-date/I-year
 ApJ d d I-venue/B-journal
 , d d I-venue/I-journal
-submitted d d I-venue/B-status
+submitted d d I-venue/U-status
 (arXiv:1201.1079) d d U-reference_id
 
 Yoshua d d B-authors/B-person/U-person-first
@@ -8959,7 +8959,7 @@ M. d d I-venue/I-editor/I-person/B-person-first
 , d d I-venue/I-editor/I-person/I-person-first
 Frommholz d d I-venue/I-editor/B-person/B-person-last
 , d d I-venue/I-editor/I-person/I-person-last
-I. d d I-venue/I-editor/I-person/B-person-first
+I. d d I-venue/I-editor/I-person/U-person-first
 Proceedings d d I-venue/B-booktitle
 of d d I-venue/I-booktitle
 QI d d I-venue/I-booktitle
@@ -9117,7 +9117,7 @@ Phys d d I-venue/I-journal
 [35] d d U-ref-marker
 Rigollet d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-P. d d I-authors/I-person/B-person-first
+P. d d I-authors/I-person/U-person-first
 (2006) d d B-date/B-year
 . d d I-date/I-year
 In´egalit´es d d B-title
@@ -9503,7 +9503,7 @@ e-prints d d I-venue/I-tech
 [5] d d U-ref-marker
 Eagleson d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-G. d d I-authors/I-person/B-person-first
+G. d d I-authors/I-person/U-person-first
 1964 d d B-date/B-year
 . d d I-date/I-year
 Polynomial d d B-title
@@ -9584,7 +9584,7 @@ Nychka d d I-authors/B-person/B-person-last
 D. d d I-authors/I-person/U-person-first
 Wikle d d I-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-C. d d I-authors/I-person/B-person-first
+C. d d I-authors/I-person/U-person-first
 (2008) d d B-date/B-year
 . d d I-date/I-year
 Supplement d d B-title
@@ -10236,7 +10236,7 @@ Math d d I-venue/I-journal
 [48] d d U-ref-marker
 Zou d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-H. d d I-authors/I-person/B-person-first
+H. d d I-authors/I-person/U-person-first
 (2006) d d B-date/B-year
 . d d I-date/I-year
 The d d B-title
@@ -10503,7 +10503,7 @@ Coordination d d I-venue/I-journal
 ( d d I-venue/B-number
 1 d d I-venue/I-number
 ) d d I-venue/I-number
-(2007) d d I-venue/U-date/B-year
+(2007) d d I-venue/U-date/U-year
 27--43 d d I-venue/U-pages
 
 [18] d d U-ref-marker
@@ -11032,7 +11032,7 @@ MNRAS d d I-venue/B-journal
 
 Kitov d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-I. d d I-authors/I-person/B-person-first
+I. d d I-authors/I-person/U-person-first
 (2006a) d d B-date/B-year
 . d d I-date/I-year
 Inflation d d B-title
@@ -11266,7 +11266,7 @@ Math d d I-venue/I-journal
 Wikle d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
 C. d d I-authors/I-person/U-person-first
-K. d d I-authors/I-person/B-person-middle
+K. d d I-authors/I-person/U-person-middle
 (2003) d d B-date/B-year
 . d d I-date/I-year
 Hierarchical d d B-title
@@ -11319,7 +11319,7 @@ Anal d d I-venue/I-journal
 Lary d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
 D. d d I-authors/I-person/U-person-first
-J. d d I-authors/I-person/B-person-middle
+J. d d I-authors/I-person/U-person-middle
 (1999) d d B-date/B-year
 . d d I-date/I-year
 Data d d B-title
@@ -11630,7 +11630,7 @@ H. d d I-authors/I-person/U-person-middle
 Stoffer d d I-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
 D. d d I-authors/I-person/U-person-first
-S. d d I-authors/I-person/B-person-middle
+S. d d I-authors/I-person/U-person-middle
 (2000) d d B-date/B-year
 . d d I-date/I-year
 Time d d B-title
@@ -12096,7 +12096,7 @@ Khmelnitsky d d I-authors/I-person/U-person-last
 JETP d d B-venue/B-journal
 Lett d d I-venue/I-journal
 v.62 d d I-venue/U-volume
-(1995) d d I-venue/U-date/B-year
+(1995) d d I-venue/U-date/U-year
 76 d d I-venue/B-pages
 ; d d I-venue/I-pages
 
@@ -12238,7 +12238,7 @@ AJ d d I-venue/B-journal
 
 Sandu d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-A. d d I-authors/I-person/B-person-first
+A. d d I-authors/I-person/U-person-first
 (2005) d d B-date/B-year
 . d d I-date/I-year
 Ensemble-based d d B-title
@@ -12597,7 +12597,7 @@ Springer d d I-venue/B-publisher
 Wasserman d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
 L. d d I-authors/I-person/U-person-first
-A. d d I-authors/I-person/B-person-middle
+A. d d I-authors/I-person/U-person-middle
 (2004) d d B-date/B-year
 . d d I-date/I-year
 All d d B-title
@@ -12615,7 +12615,7 @@ MR2055670 d d U-reference_id
 Zhang d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
 C. d d I-authors/I-person/U-person-first
-H. d d I-authors/I-person/B-person-middle
+H. d d I-authors/I-person/U-person-middle
 (1990) d d B-date/B-year
 . d d I-date/I-year
 Fourier d d B-title
@@ -12974,7 +12974,7 @@ A. d d I-venue/I-editor/I-person/U-person-middle
 Bradley d d I-venue/I-editor/I-person/U-person-last
 J. d d I-venue/I-editor/B-person/U-person-first
 A. d d I-venue/I-editor/I-person/U-person-middle
-Guzik d d I-venue/I-editor/I-person/B-person-last
+Guzik d d I-venue/I-editor/I-person/U-person-last
 ( d d I-venue/B-address
 San d d I-venue/I-address
 Francisco d d I-venue/I-address
@@ -13191,8 +13191,8 @@ Rev d d I-venue/I-journal
 . d d I-venue/I-journal
 D d d I-venue/I-journal
 74 d d I-venue/U-volume
-(2006) d d I-venue/U-date/B-year
-043508 d d I-venue/B-pages
+(2006) d d I-venue/U-date/U-year
+043508 d d I-venue/U-pages
 [hep-ph/0511207] d d B-reference_id
 . d d I-reference_id
 
@@ -13547,13 +13547,13 @@ U. d d I-authors/B-person/U-person-first
 Smilansky d d I-authors/I-person/U-person-last
 Nonlinearity d d B-venue/U-journal
 v.5 d d I-venue/U-volume
-(1992) d d I-venue/U-date/B-year
+(1992) d d I-venue/U-date/U-year
 1055 d d I-venue/U-pages
 
 N. d d B-authors/B-person/U-person-first
 Ropert d d I-authors/I-person/U-person-last
 N. d d I-authors/B-person/U-person-first
-Guy d d I-authors/I-person/B-person-last
+Guy d d I-authors/I-person/U-person-last
 (1991) d d B-date/B-year
 . d d I-date/I-year
 Serotonin d d B-title
@@ -13666,7 +13666,7 @@ van d d I-venue/I-editor/B-person/B-person-last
 der d d I-venue/I-editor/I-person/I-person-last
 Merwe d d I-venue/I-editor/I-person/I-person-last
 , d d I-venue/I-editor/I-person/I-person-last
-A. d d I-venue/I-editor/I-person/B-person-first
+A. d d I-venue/I-editor/I-person/U-person-first
 New d d I-venue/B-booktitle
 Develop- d d I-venue/I-booktitle
 ments d d I-venue/I-booktitle
@@ -13946,7 +13946,7 @@ H. d d I-authors/I-person/U-person-middle
 Finkel d d I-authors/I-person/U-person-last
 G. d d I-authors/B-person/U-person-first
 M. d d I-authors/I-person/U-person-middle
-Edelman d d I-authors/I-person/B-person-last
+Edelman d d I-authors/I-person/U-person-last
 (1987) d d B-date/B-year
 . d d I-date/I-year
 Plasticity d d B-title
@@ -14067,7 +14067,7 @@ ApJ d d I-venue/B-journal
 [10] d d U-ref-marker
 Ledwina d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-T. d d I-authors/I-person/B-person-first
+T. d d I-authors/I-person/U-person-first
 (1994) d d B-date/B-year
 . d d I-date/I-year
 Data-driven d d B-title
@@ -14395,7 +14395,7 @@ Geom d d B-venue/B-journal
 . d d I-venue/I-journal
 Dedicata d d I-venue/I-journal
 108 d d I-venue/U-volume
-(2004) d d I-venue/U-date/B-year
+(2004) d d I-venue/U-date/U-year
 15-69 d d I-venue/B-pages
 . d d I-venue/I-pages
 
@@ -14610,7 +14610,7 @@ A&A d d I-venue/B-journal
 Langovoy d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
 M. d d I-authors/I-person/U-person-first
-A. d d I-authors/I-person/B-person-middle
+A. d d I-authors/I-person/U-person-middle
 (2008) d d B-date/B-year
 . d d I-date/I-year
 Data-driven d d B-title
@@ -14765,7 +14765,7 @@ Germany d d I-venue/I-institution
 
 T. d d B-authors/B-person/U-person-first
 E. d d I-authors/I-person/U-person-middle
-Salt d d I-authors/I-person/B-person-last
+Salt d d I-authors/I-person/U-person-last
 (1989) d d B-date/B-year
 . d d I-date/I-year
 Modulation d d B-title
@@ -14847,7 +14847,7 @@ D. d d I-authors/I-person/U-person-first
 Berliner d d I-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
 L. d d I-authors/I-person/U-person-first
-M. d d I-authors/I-person/B-person-middle
+M. d d I-authors/I-person/U-person-middle
 (2001) d d B-date/B-year
 . d d I-date/I-year
 Spatiotemporal d d B-title
@@ -15035,7 +15035,7 @@ C. d d I-authors/I-person/U-person-first
 H. d d I-authors/I-person/U-person-middle
 Huang d d I-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-J. d d I-authors/I-person/B-person-first
+J. d d I-authors/I-person/U-person-first
 (2008) d d B-date/B-year
 . d d I-date/I-year
 The d d B-title
@@ -15233,7 +15233,7 @@ N. d d I-authors/I-person/B-person-first
 , d d I-authors/I-person/I-person-first
 Munk d d I-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-A. d d I-authors/I-person/B-person-first
+A. d d I-authors/I-person/U-person-first
 (2007) d d B-date/B-year
 . d d I-date/I-year
 Density d d B-title
@@ -15323,8 +15323,8 @@ Rev d d I-venue/I-journal
 . d d I-venue/I-journal
 D d d I-venue/I-journal
 73 d d I-venue/U-volume
-(2006) d d I-venue/U-date/B-year
-063514 d d I-venue/B-pages
+(2006) d d I-venue/U-date/U-year
+063514 d d I-venue/U-pages
 [astro-ph/0511396] d d B-reference_id
 . d d I-reference_id
 
@@ -15478,7 +15478,7 @@ Strickman d d I-venue/I-editor/I-person/B-person-last
 , d d I-venue/I-editor/I-person/I-person-last
 J. d d I-venue/I-editor/B-person/U-person-first
 D. d d I-venue/I-editor/I-person/U-person-middle
-Kurfess d d I-venue/I-editor/I-person/B-person-last
+Kurfess d d I-venue/I-editor/I-person/U-person-last
 ( d d I-venue/B-address
 New d d I-venue/I-address
 York d d I-venue/I-address
@@ -15518,7 +15518,7 @@ Math d d I-venue/I-journal
 [37] d d U-ref-marker
 Rudemo d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-M. d d I-authors/I-person/B-person-first
+M. d d I-authors/I-person/U-person-first
 (1982) d d B-date/B-year
 . d d I-date/I-year
 Empirical d d B-title
@@ -15556,7 +15556,7 @@ P. d d I-authors/I-person/U-person-middle
 Bailey d d I-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
 P. d d I-authors/I-person/U-person-first
-L. d d I-authors/I-person/B-person-middle
+L. d d I-authors/I-person/U-person-middle
 (1998) d d B-date/B-year
 . d d I-date/I-year
 Retrieval d d B-title
@@ -15604,7 +15604,7 @@ Phys d d I-venue/I-journal
 [6] d d U-ref-marker
 Fan d d B-authors/B-person/B-person-last
 , d d I-authors/I-person/I-person-last
-J. d d I-authors/I-person/B-person-first
+J. d d I-authors/I-person/U-person-first
 (1991) d d B-date/B-year
 . d d I-date/I-year
 On d d B-title
@@ -15968,7 +15968,7 @@ D d d I-venue/I-journal
 54 d d I-venue/B-volume
 , d d I-venue/I-volume
 7186 d d I-venue/U-pages
-(1996) d d I-venue/B-date/B-year
+(1996) d d I-venue/U-date/U-year
 [hep-ph/9606412] d d B-reference_id
 . d d I-reference_id
 
@@ -16049,7 +16049,7 @@ Phys d d I-venue/I-journal
 Astronomy d d I-venue/I-journal
 , d d I-venue/I-journal
 31 d d I-venue/U-volume
-(1986) d d I-venue/U-date/B-year
+(1986) d d I-venue/U-date/U-year
 241 d d I-venue/U-pages
 ( d d I-venue/B-language
 in d d I-venue/I-language
