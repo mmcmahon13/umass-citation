@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eafe83e-adff-4b2d-8983-95e3577b9b20" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cnn-spred/src/eval_f1_bio.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parse_docs.py" afterPath="$PROJECT_DIR$/parse_docs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cnn-spred/src/eval_f1_bio.py" afterPath="$PROJECT_DIR$/../cnn-spred/src/eval_f1_bio.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/umass-citation.iml" afterPath="$PROJECT_DIR$/.idea/umass-citation.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="umass-citation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +25,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../cnn-spred/src/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+            <state relative-caret-position="273">
+              <caret line="73" column="61" selection-start-line="73" selection-start-column="61" selection-end-line="73" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eval_f1_bio.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../cnn-spred/src/eval_f1_bio.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="131" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cnn_spred.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../cnn-spred/src/cnn_spred.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3179">
+              <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parse_docs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parse_docs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2236">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="umass-citation-lample.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../cnn-spred/conf/umass-citation-lample.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="umass-citation.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../cnn-spred/conf/umass-citation.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -37,60 +93,63 @@
         <entry file="file://$PROJECT_DIR$/../cnn-spred/src/eval_f1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+              <caret line="167" column="24" selection-start-line="167" selection-start-column="24" selection-end-line="167" selection-end-column="24" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1485304564708" expanded="false" signature="0:111" ph="import ..." />
+                <marker date="1485304564708" expanded="true" signature="114:267" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="330:2102" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="1903:2079" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="2210:3059" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="2471:2986" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="2556:2986" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="2623:2986" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="2664:2939" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="2681:2835" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="3081:3125" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="3150:3194" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="3221:3277" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="3309:3452" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="3624:13969" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="3745:4023" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="3791:4007" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="4444:12119" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="4453:4516" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="4634:12119" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="4677:4987" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="5024:12119" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="5199:5560" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="5601:12050" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="6242:6336" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="6394:6488" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="6539:10747" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="6641:7890" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="6794:7890" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="7267:7685" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="7430:7685" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="7753:7890" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="7920:10747" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="8066:10747" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="8231:10747" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="8728:10704" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="8899:9107" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="9253:10341" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="9391:9817" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="9581:9817" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="9881:10341" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="10105:10341" ph="..." />
+                <marker date="1485304564708" expanded="false" signature="10849:12050" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="10955:11401" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="10993:11315" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="11127:11315" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="11448:12050" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="11494:11840" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="11652:11840" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="11874:12050" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="12670:12812" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="13510:13684" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="14041:19992" ph="..." />
+                <marker date="1485304564708" expanded="true" signature="14220:19992" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HierEvaluation.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HierEvaluation.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="66" column="69" selection-start-line="66" selection-start-column="69" selection-end-line="66" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordBasedEval.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../WordBasedEval.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-52">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parse_docs.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/parse_docs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eval_f1_bio.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cnn-spred/src/eval_f1_bio.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cnn_spred.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cnn-spred/src/cnn_spred.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="85" column="72" selection-start-line="85" selection-start-column="72" selection-end-line="85" selection-end-column="72" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -105,15 +164,17 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../cnn-spred" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../cnn-spred/src/eval_f1.py" />
-        <option value="$PROJECT_DIR$/../cnn-spred/src/train.py" />
         <option value="$PROJECT_DIR$/../HierEvaluation.scala" />
         <option value="$PROJECT_DIR$/parse_docs.py" />
+        <option value="$PROJECT_DIR$/../cnn-spred/src/tsv_to_tfrecords.py" />
+        <option value="$PROJECT_DIR$/../cnn-spred/src/eval_f1_bio.py" />
+        <option value="$PROJECT_DIR$/../cnn-spred/src/train.py" />
       </list>
     </option>
   </component>
@@ -187,6 +248,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="cnn-spred" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umass-citation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cnn-spred" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umass-citation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="umass-citation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -198,7 +287,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../WordBasedEval.scala" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -392,15 +481,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17423134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23792094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3952756" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27874017" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.107086614" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42677164" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0992126" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -410,9 +500,11 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -426,7 +518,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -434,7 +528,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -442,9 +538,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -484,7 +578,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -492,9 +588,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2686">
           <caret line="158" column="65" selection-start-line="158" selection-start-column="60" selection-end-line="158" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -526,7 +620,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -534,9 +630,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2686">
           <caret line="158" column="65" selection-start-line="158" selection-start-column="60" selection-end-line="158" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -548,43 +642,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../cnn-spred/src/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cnn-spred/src/cnn_spred.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="85" column="72" selection-start-line="85" selection-start-column="72" selection-end-line="85" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cnn-spred/src/eval_f1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../WordBasedEval.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cnn-spred/src/eval_f1_bio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-240">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -592,17 +652,156 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../HierEvaluation.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
+        <state relative-caret-position="-1667">
           <caret line="66" column="69" selection-start-line="66" selection-start-column="69" selection-end-line="66" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../cnn-spred/src/tsv_to_tfrecords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="239" column="21" selection-start-line="239" selection-start-column="16" selection-end-line="239" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cnn-spred/src/cnn_spred.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3179">
+          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cnn-spred/src/eval_f1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="167" column="24" selection-start-line="167" selection-start-column="24" selection-end-line="167" selection-end-column="24" />
+          <folding>
+            <marker date="1485304564708" expanded="false" signature="0:111" ph="import ..." />
+            <marker date="1485304564708" expanded="true" signature="114:267" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="330:2102" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="1903:2079" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="2210:3059" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="2471:2986" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="2556:2986" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="2623:2986" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="2664:2939" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="2681:2835" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="3081:3125" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="3150:3194" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="3221:3277" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="3309:3452" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="3624:13969" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="3745:4023" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="3791:4007" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="4444:12119" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="4453:4516" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="4634:12119" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="4677:4987" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="5024:12119" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="5199:5560" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="5601:12050" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="6242:6336" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="6394:6488" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="6539:10747" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="6641:7890" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="6794:7890" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="7267:7685" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="7430:7685" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="7753:7890" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="7920:10747" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="8066:10747" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="8231:10747" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="8728:10704" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="8899:9107" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="9253:10341" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="9391:9817" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="9581:9817" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="9881:10341" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="10105:10341" ph="..." />
+            <marker date="1485304564708" expanded="false" signature="10849:12050" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="10955:11401" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="10993:11315" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="11127:11315" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="11448:12050" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="11494:11840" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="11652:11840" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="11874:12050" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="12670:12812" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="13510:13684" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="14041:19992" ph="..." />
+            <marker date="1485304564708" expanded="true" signature="14220:19992" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/parse_docs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="-2236">
           <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cnn-spred/bin/preprocess_conll.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cnn-spred/conf/umass-citation.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cnn-spred/conf/umass-citation-lample.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cnn-spred/conf/umass-citation-lample-char.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cnn-spred/bin/train-cnn.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cnn-spred/src/eval_f1_bio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="131" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cnn-spred/src/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="73" column="61" selection-start-line="73" selection-start-column="61" selection-end-line="73" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

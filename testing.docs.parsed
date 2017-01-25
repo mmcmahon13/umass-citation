@@ -8241,7 +8241,7 @@ A. d d I-authors/I-person/U-person-middle
 1994 d d B-date/B-year
 a d d I-date/I-year
 . d d I-date/I-year
-Sub--Chandrasekhar d d B-title
+SuB-Chandrasekhar d d B-title
 models d d I-title
 for d d I-title
 Type d d I-title
